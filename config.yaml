@@ -1,0 +1,15 @@
+app:
+  name: "uc.study.demo122222"
+  version: "0.1.2"
+wechat:
+  appId: "xxxxx123111"
+  merchantId: "xxxxxxx212112111111s"
+log:
+  ConsoleLoggingEnabled: false
+  EncodeLogsAsJson: true
+  FileLoggingEnabled: true
+  Directory: "D:/go-programs/uc/logs"
+  Filename: "uc.log"
+  MaxSize: 100
+  MaxBackups: 3
+  MaxAge: 1

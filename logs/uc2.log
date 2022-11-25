@@ -1,0 +1,13 @@
+{"level":"error","time":"2022-07-11 16:21:28","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:21:28","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:22:44","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:22:44","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:23:00","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:23:00","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:23:17","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:23:17","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 17:37:11","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 17:37:11","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 17:37:22","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 17:37:22","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"info","time":"2022-07-12 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:46"}

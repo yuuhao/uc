@@ -1,0 +1,88 @@
+{"level":"error","time":"2022-07-08 18:37:28","caller":"D:/go-programs/uc/app/controller/api/user.go:61","message":"hello world !!!"}
+{"level":"error","time":"2022-07-08 18:37:29","caller":"D:/go-programs/uc/app/controller/api/user.go:61","message":"hello world !!!"}
+{"level":"info","time":"2022-07-09 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 181MB 流量.\"}}"}
+{"level":"info","time":"2022-07-10 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 308MB 流量.\"}}"}
+{"level":"info","time":"2022-07-11 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 404MB 流量.\"}}"}
+{"level":"error","time":"2022-07-11 14:01:35","caller":"D:/go-programs/uc/app/controller/api/user.go:61","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 14:01:35","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 14:04:54","caller":"D:/go-programs/uc/app/controller/api/user.go:61","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 14:04:54","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:26","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:26","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:34","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:34","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:35","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:35","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:38","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:38","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:39","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:39","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:43","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:43","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:56","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:56","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:57","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:57","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:58","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:58","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:59","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:59","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:24:59","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:24:59","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:25:00","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:25:00","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:25:01","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:25:01","caller":"D:/go-programs/uc/app/controller/api/user.go:64","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:56:58","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:56:58","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:57:06","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:57:06","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 15:57:28","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 15:57:28","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:09:21","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:09:21","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:09:24","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:09:24","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:09:25","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:09:25","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:10:18","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:10:18","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:16:46","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:16:46","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:17:23","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:17:23","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:19:23","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:19:23","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:19:33","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:19:33","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:20:01","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:20:01","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:20:05","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:20:05","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:20:16","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:20:16","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"info","time":"2022-07-12 11:18:03","caller":"D:/go-programs/uc/app/crontab/sign.go:46"}
+{"level":"info","time":"2022-07-12 11:19:04","caller":"D:/go-programs/uc/app/crontab/sign.go:46"}
+{"level":"info","time":"2022-07-12 11:19:19","caller":"D:/go-programs/uc/app/crontab/sign.go:46"}
+{"level":"info","time":"2022-07-12 11:20:11","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":10,\"message\":\"您似乎已经签到过了...\"}"}
+{"level":"info","time":"2022-07-12 11:21:05","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":10,\"message\":\"您似乎已经签到过了...\"}"}
+{"level":"info","time":"2022-07-12 11:21:41","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":10,\"message\":\"您似乎已经签到过了...\"}"}
+{"level":"info","time":"2022-07-13 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 81MB 流量.\"}}"}
+{"level":"info","time":"2022-07-14 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 333MB 流量.\"}}"}
+{"level":"info","time":"2022-07-15 06:00:02","caller":"D:/go-programs/uc/app/crontab/sign.go:46","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 447MB 流量.\"}}"}
+{"level":"error","time":"2022-07-15 14:33:31","caller":"D:/go-programs/uc/utils/Mysql.go:17","message":"hello world !!!"}
+{"level":"error","time":"2022-07-15 14:34:09","caller":"D:/go-programs/uc/utils/Mysql.go:17","message":"hello world !!!"}
+{"level":"error","time":"2022-07-15 14:34:33","caller":"D:/go-programs/uc/utils/Mysql.go:17","message":"hello world !!!"}
+{"level":"info","time":"2022-07-16 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:47","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 94MB 流量.\"}}"}
+{"level":"info","time":"2022-07-17 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:47","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 314MB 流量.\"}}"}
+{"level":"info","time":"2022-07-18 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:47","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 320MB 流量.\"}}"}
+{"level":"info","time":"2022-07-19 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:47"}
+{"level":"info","time":"2022-07-20 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:47"}
+{"level":"info","time":"2022-07-22 06:00:01","caller":"D:/go-programs/uc/app/crontab/sign.go:47","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 100MB 流量.\"}}"}
+{"level":"info","time":"2022-07-23 06:00:05","caller":"D:/go-programs/uc/app/crontab/sign.go:47","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 120MB 流量.\"}}"}
+{"level":"info","time":"2022-07-24 06:00:08","caller":"D:/go-programs/uc/app/crontab/sign.go:47","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 187MB 流量.\"}}"}
+{"level":"info","time":"2022-07-25 06:00:00","caller":"D:/go-programs/uc/app/crontab/sign.go:47"}
+{"level":"info","time":"2022-07-27 06:01:15","caller":"D:/go-programs/uc/app/crontab/sign.go:50","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 102MB 流量.\"}}"}
+{"level":"info","time":"2022-07-28 06:00:00","caller":"D:/go-programs/uc/app/crontab/sign.go:50","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 455MB 流量.\"}}"}
+{"level":"info","time":"2022-07-29 06:00:02","caller":"D:/go-programs/uc/app/crontab/sign.go:50","message":"{\"code\":100,\"data\":{\"message\":\"签到成功,获得了 491MB 流量.\"}}"}
+{"level":"info","time":"2022-07-30 06:00:02","caller":"D:/go-programs/uc/app/crontab/sign.go:50"}

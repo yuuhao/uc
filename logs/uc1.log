@@ -1,0 +1,4 @@
+{"level":"error","time":"2022-07-11 16:18:05","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:18:05","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
+{"level":"error","time":"2022-07-11 16:18:19","caller":"D:/go-programs/uc/app/controller/api/user.go:62","message":"hello world !!!"}
+{"level":"error","aa":"sub","time":"2022-07-11 16:18:19","caller":"D:/go-programs/uc/app/controller/api/user.go:63","message":"hello world !!!"}
