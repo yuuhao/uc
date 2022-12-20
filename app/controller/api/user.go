@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"reflect"
 	"strconv"
-	"strings"
 	"time"
-	"uc/app/models"
+	"uc/app/helper"
 	"uc/utils"
 
 	"github.com/go-playground/validator/v10"
+	"github.com/spf13/cast"
 
 	"github.com/gin-gonic/gin"
 )
@@ -39,40 +39,41 @@ func bookableDate(
 	return true
 }
 func UserList(c *gin.Context) {
-	//s := `{"code":100,"data":{"message":"\u7b7e\u5230\u6210\u529f,\u83b7\u5f97\u4e86 267MB \u6d41\u91cf."}}`
+	s := `{"code":100,"data":{"message":"\u7b7e\u5230\u6210\u529f,\u83b7\u5f97\u4e86 267MB \u6d41\u91cf."}}`
 
-	//sText := "hello 你好"
-	//textQuoted := strconv.QuoteToASCII(sText)
-	//textUnquoted := textQuoted[1 : len(textQuoted)-1]
-	//fmt.Println(textUnquoted)
-	//v, _ := zhToUnicode([]byte(s))
-	//v := []byte([1,2,3])
-	fmt.Println(string([]byte(`[1111]`)))
-}
-
-func zhToUnicode(raw []byte) ([]byte, error) {
-	str, err := strconv.Unquote(strings.Replace(strconv.Quote(string(raw)), `\\u`, `\u`, -1))
-	if err != nil {
-		return nil, err
-	}
-	return []byte(str), nil
+	sText := "hello 你好"
+	textQuoted := strconv.QuoteToASCII(sText)
+	textUnquoted := textQuoted[1 : len(textQuoted)-1]
+	fmt.Println(textUnquoted)
+	fmt.Println(helper.ZhToUnicode([]byte(s)))
 }
 
 func Ping(c *gin.Context) {
-	var user models.User
-	utils.DB.Find(&user, "id = 1")
+	//
 
-	err := utils.Redis.Set(c, "user", "11", time.Minute).Err()
-	if err != nil {
-		FailResponse(c, "fail", nil)
-	}
-	_, err = utils.Redis.Get(c, "user").Result()
-	if err != nil {
-		FailResponse(c, "fail", nil)
+	// ticker := time.NewTicker(time.Second * 1)
+	// defer ticker.Stop()
+
+	for {
+		select {
+		case <-time.Tick(time.Millisecond * 1):
+			fmt.Println("ok")
+		}
 	}
 
-	//utils.InitElastic()
-	FailResponse(c, "ok", nil)
+}
+
+func Cache(c *gin.Context) {
+	rds := utils.RedisPool.Get()
+	defer rds.Close()
+
+	_, err := rds.Do("SET", "name", "zhangsan")
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	name, _ := rds.Do("GET", "name")
+	fmt.Println(cast.ToString(name))
 }
 
 func demo() {

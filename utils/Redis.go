@@ -1,16 +1,33 @@
 package utils
 
-import "github.com/go-redis/redis/v8"
+import (
+	"fmt"
+	"log"
 
-var Redis *redis.Client
+	redigo "github.com/garyburd/redigo/redis"
+)
 
-func InitRedis() *redis.Client {
+var RedisPool *redigo.Pool
 
-	Redis = redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
-		Password: "", // no password set
-		DB:       0,  // use default DB
-	})
+func InitRedis() *redigo.Pool {
 
-	return Redis
+	RedisPool = &redigo.Pool{
+		MaxIdle:     3,   //最初的连接数量
+		MaxActive:   5,   // 最大连接数
+		IdleTimeout: 300, // 超过这个时间，关闭连接
+		Dial: func() (redigo.Conn, error) {
+			return redigo.Dial("tcp", "localhost:6379")
+		},
+	}
+	rds := RedisPool.Get()
+	defer rds.Close()
+
+	_, err := rds.Do("PING")
+	if err != nil {
+		fmt.Println(err)
+		log.Fatalf("redis ping fail %+v\n", err)
+	}
+
+	//RedisPool = pool
+	return RedisPool
 }

@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
 	"os"
@@ -10,6 +9,8 @@ import (
 	"time"
 	"uc/boot"
 	"uc/routes"
+
+	"github.com/gin-gonic/gin"
 )
 
 var server *gin.Engine

@@ -12,9 +12,11 @@ func apiRoute(s *gin.Engine) {
 
 	{
 		v.Use(gin.Recovery())
+
 		//v.GET("/user", api.Ping)
 		v.POST("/login", api.Login)
 		v.GET("/user", api.Ping)
+		v.GET("/cache", api.Cache)
 
 		v.Use(middleware.JWT()).GET("/user/info", api.UserList)
 		v.POST("/ping", api.Ping)

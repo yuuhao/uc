@@ -11,13 +11,15 @@ import (
 	"github.com/spf13/viper"
 )
 
-func Boot() {
+func init() {
 	//initConfig() // 初始化配置文件
 	utils.InitNacos()
+}
+
+func Boot() {
 	initZeroLogger() // 初始化日志功能
 
 	utils.InitMysql()
-	defer utils.DB.Close()
 	utils.InitRedis()
 
 	go crontab.CronTab()
