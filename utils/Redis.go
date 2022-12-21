@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	redigo "github.com/garyburd/redigo/redis"
+	redigo "github.com/gomodule/redigo/redis"
 )
 
 var RedisPool *redigo.Pool

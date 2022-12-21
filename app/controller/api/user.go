@@ -76,6 +76,13 @@ func Cache(c *gin.Context) {
 	fmt.Println(cast.ToString(name))
 }
 
+func Config(c *gin.Context) {
+	for i := 0; i < 100; i++ {
+		utils.StartClient()
+		time.Sleep(1 * time.Second)
+	}
+}
+
 func demo() {
 	p := new(struct1)
 	p.f1 = 2.1

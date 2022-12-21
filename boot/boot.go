@@ -23,6 +23,7 @@ func Boot() {
 	utils.InitRedis()
 
 	go crontab.CronTab()
+	go utils.StartKeeperService()
 }
 
 func initZeroLogger() {

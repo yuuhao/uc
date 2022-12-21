@@ -17,6 +17,7 @@ func apiRoute(s *gin.Engine) {
 		v.POST("/login", api.Login)
 		v.GET("/user", api.Ping)
 		v.GET("/cache", api.Cache)
+		v.GET("/config", api.Config)
 
 		v.Use(middleware.JWT()).GET("/user/info", api.UserList)
 		v.POST("/ping", api.Ping)
